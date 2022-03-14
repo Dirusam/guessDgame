@@ -2,7 +2,7 @@ let computerGuess;
 let userGuess = [];
 let userOutputGuess = document.getElementById("textOutput");
 let userNumberUpdate = document.getElementById("inputBox");
-
+// comment added
 const init = () => {
   computerGuess = Math.floor(Math.random() * 100 + 1);
   console.log(computerGuess);
